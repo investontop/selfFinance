@@ -35,7 +35,7 @@ print('Note: Exit Code 0 means Success')
 
 # Variables assigning [common variables]
 sourcePath = config['SelfFinance']['sourcepath']
-filePrefix = config['SelfFinance']['statementprefix']
+filePrefix = config['SelfFinance']['statementprefix'] # sample file name: HDFC_BANK_STMT_FY2022 23.xlsx
 
 # Get a list of files in the specified directory
 files = os.listdir(sourcePath)
@@ -54,3 +54,12 @@ for file in hdfc_files:
 
     result = read_excel(file_path, 6, 1)
     print('Name: ' + result[:])
+
+    result = read_excel(file_path, 16, 1)
+    print(result[:])
+    print('')
+
+    GrandDebitTotal = 0
+    GrandInvestmentTotal = 0
+    GrandCreditTotal = 0
+
