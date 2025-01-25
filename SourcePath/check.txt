@@ -1,0 +1,53 @@
+28/11/2023:
+
+C:\Users\Dell\python39\Scripts\python.exe E:/Programming/projects/python/SelfFinance/selfFinance.py
+[2023-11-28 20:21:19] [selfFinance.py] Started - Considering config: [config-test.ini]
+Note: Exit Code 0 means Success
+Statement From  :  01/04/2019         To  :  31/03/2020
+Debit  - HSEC Transfers: ₹ 5,95,396.64
+Credit - HSEC Transfers: ₹ 2,29,808.11
+-365588.5299999999
+
+Statement From  :  01/04/2020         To  :  31/03/2021
+Debit  - HSEC Transfers: ₹ 15,02,983.08
+Credit - HSEC Transfers: ₹ 8,66,728.08
+-636255.0000000001
+
+Statement From  :  01/04/2022         To  :  31/03/2023
+Debit  - HSEC Transfers: ₹ 18,67,490.54
+Credit - HSEC Transfers: ₹ 22,96,175.09
+428684.5500000003
+
+Statement From  :  01/04/2023         To  :  27/11/2023
+Debit  - HSEC Transfers: ₹ 16,80,985.24
+Credit - HSEC Transfers: ₹ 10,04,383.77
+-676601.4700000004
+
+Invested: -1249760.45 INR in 4 years.
+
+
+
+C:\Users\Dell\python39\Scripts\python.exe E:/Programming/projects/python/SelfFinance/selfFinance.py
+[2023-11-28 20:39:10] [selfFinance.py] Started - Considering config: [config-test.ini]
+Note: Exit Code 0 means Success
+Statement From  :  01/04/2019         To  :  31/03/2020
+Debit  - HSEC Transfers: ₹ 5,95,396.64
+Credit - HSEC Transfers: ₹ 2,29,808.11
+-365588.5299999999
+
+Statement From  :  01/04/2020         To  :  31/03/2021
+Debit  - HSEC Transfers: ₹ 15,02,983.08
+Credit - HSEC Transfers: ₹ 8,66,728.08
+-636255.0000000001
+
+Statement From  :  01/04/2022         To  :  31/03/2023
+Debit  - HSEC Transfers: ₹ 18,67,490.54
+Credit - HSEC Transfers: ₹ 22,98,971.09
+431480.5500000003
+
+Statement From  :  01/04/2023         To  :  27/11/2023
+Debit  - HSEC Transfers: ₹ 16,80,985.24
+Credit - HSEC Transfers: ₹ 10,28,327.77
+-652657.4700000004
+
+Invested: -1223020.45 INR in 4 years.

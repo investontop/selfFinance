@@ -1,4 +1,5 @@
 # 2023-10-06 Initiated a py file
+# We are including the Dividend in this calculation. Remember, this dividend is from Zerodha too. Because of that, this is slightly incorrect. But we cannoy do anything.
 
 # import
 import configparser
@@ -68,10 +69,12 @@ HDFCSEC_transfers = eval(config['variable']['HDFCSEC_transfers'])
 files = os.listdir(sourcePath)
 
 # Filter files that start with 'HDFC'
-hdfc_files = [file for file in files if file.startswith(filePrefix)]
+hdfcBank_files = [file for file in files if file.startswith(filePrefix)]
+
+print(hdfcBank_files)
 
 # Print the list of files
-for file in hdfc_files:
+for file in hdfcBank_files:
     netflow = 0
     Years += 1
     file_path = os.path.join(sourcePath, file)
